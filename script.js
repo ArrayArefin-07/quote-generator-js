@@ -13,6 +13,8 @@ const api_url = "https://api.quotable.io/random";
 
   getquote(api_url);
 
-
+function tweet(){
+  window.open("https://twitter.com/intent/tweet?text=Hello%20world" + quote.innerHTML + "--- by" + author.innerHTML , "Tweet Window", "width=600, height=300");
+}
 
 
